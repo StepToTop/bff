@@ -25,12 +25,16 @@
     "@modern-js/tsconfig": "^1.2.0",
     "egg": "^2.6.1",
     "egg-cors": "^2.2.3",
-    "egg-scripts": "^2.6.0"
+    "egg-scripts": "^2.6.0",
+    "egg-websocket-plugin": "^1.0.1",
+    "fast-json-stringify": "^5.1.0",
+    "zeromq": "^5.2.8"
   },
   "devDependencies": {
     "@types/mocha": "^2.2.40",
     "@types/node": "^7.0.12",
     "@types/supertest": "^2.0.0",
+    "@types/zeromq": "^5.2.1",
     "autod": "^3.0.1",
     "autod-egg": "^1.1.0",
     "egg-bin": "^4.11.0",
