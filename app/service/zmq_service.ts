@@ -96,7 +96,7 @@ const currencies = [
 
 currencies.forEach((currency: Currency) => {
   new DataWatcher('tcp://127.0.0.1:9528', currency);
-})
+});
 
 export default class ZMQService extends Service {
   public async getData() {
